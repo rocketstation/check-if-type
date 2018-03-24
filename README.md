@@ -4,7 +4,6 @@ Check If Type provides helpers to check if argument type is object, array, funct
 
 ## Installation
 
-1. Install changeCase
 ```
 npm i --save @rocketstation/chech-if-type
 ```
