@@ -5,7 +5,7 @@ Check If Type provides helpers to check if argument type is object, array, funct
 ## Installation
 
 ```
-npm i --save @rocketstation/chech-if-type
+npm i @rocketstation/chech-if-type
 ```
 
 ## Usage

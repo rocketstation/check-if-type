@@ -26,6 +26,12 @@
   "files": [
     "lib"
   ],
+  "keywords": [
+    "is array",
+    "is object",
+    "is function",
+    "check type"
+  ],
   "license": "MIT",
   "main": "lib/index.js",
   "name": "@rocketstation/check-if-type",
@@ -38,5 +44,5 @@
     "lint": "eslint src --fix --ignore-pattern *.test.js",
     "test": "jest src"
   },
-  "version": "1.0.1"
+  "version": "1.0.3"
 }
