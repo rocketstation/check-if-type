@@ -1,7 +1,10 @@
-const checkIfType = (t) => (v) => Object.prototype.toString.call(v) === `[object ${t}]`
+const check = require('just-typeof')
 
-export const isObj = checkIfType('Object')
+const fn = (type) => (v) => check(v) === type
 
-export const isArr = checkIfType('Array')
-
-export const isFn = checkIfType('Function')
+module.exports = {
+  isObj: fn('object'),
+  isArr: fn('array'),
+  isFn: fn('function'),
+  default: check,
+}

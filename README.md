@@ -1,6 +1,6 @@
 # Check If Type
 
-Check If Type provides helpers to check if argument type is object, array, function
+Check If Type is based on [just](https://github.com/angus-c/just). It provides helpers to check if argument type is object, array, function
 
 ## Installation
 
